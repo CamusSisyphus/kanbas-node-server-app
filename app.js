@@ -35,7 +35,7 @@ app.use(
       secure: true,
     };
   }
-console.log(FRONTEND_URL)
+console.log(process.env.FRONTEND_URL)
 app.use(session(sessionOptions));
 console.log(CONNECTION_STRING)  
 
