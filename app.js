@@ -35,9 +35,9 @@ app.use(
       secure: true,
     };
   }
-console.log(process.env.FRONTEND_URL)
+
 app.use(session(sessionOptions));
-console.log(CONNECTION_STRING)  
+
 
 
 UserRoutes(app);
